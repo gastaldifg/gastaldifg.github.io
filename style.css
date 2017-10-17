@@ -8,13 +8,15 @@ body {
 }
 
 footer {
-	position: fixed;
+	position: sticky;
 	width: 50%;
 	bottom: 2%;
 	left: 25%;
 	right: 25%;
 	color: white;
 	background-color: rgba(0,0,0,0.7); 
+	margin-top: 2px;
+	padding: 1px;
 }
 
 header {
@@ -64,6 +66,11 @@ a:hover {
 		flex: auto;
 		position: relative;
 		background-color: rgba(0,0,0,0.7);
+}
+
+.book {
+	text-align: center;
+	margin: 10px;
 }
 
 .bhighlight {
