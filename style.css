@@ -1,6 +1,6 @@
 body {
-	background-image: url("book-vortex.png"); background-attachment : fixed; background-repeat: no-repeat; background-size: cover; 
-	background-position: top center; height: 500%;
+	background-image: url("book-vortex.png"); background-attachment : fixed; background-repeat: no-repeat; background-size: 100%; 
+	background-position: top center; 
 }
 
 footer {
@@ -19,6 +19,21 @@ header {
 }
 
 .acceuil {
+		color: white;
+		font-size: 30px;
+		text-align: left;
+		width: 50%;
+		margin-right: 25%;
+		margin-left: 25%;
+		margin-top: 10%;
+		margin-bottom: 2px;
+		padding-left: 8px;
+		padding-bottom: auto;
+		flex: auto;
+		position: relative;
+}
+
+.cv {
 		color: white;
 		font-size: 30px;
 		text-align: left;
