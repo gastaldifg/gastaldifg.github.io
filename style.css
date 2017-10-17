@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	position: relative;
 	background-color: black;
@@ -11,22 +15,31 @@ body {
 	background-position: top center; 
 	height:97vh;
 	box-sizing:border-box;
+	padding-bottom: 10px;
+	height: auto;
 }
 
 footer {
-	position: sticky;
+	position: absolute;
 	width: 50%;
 	left: 25%;
 	right: 25%;
-	bottom: 2%;
+	bottom: 0;
 	color: white;
 	background-color: rgba(0,0,0,0.7); 
 	padding: 1px;
+	text-align: center;
 }
 
 header {
 	background-color: rgba(255,255,255,0.6);
 	height: 250px;
+}
+
+section {
+	position: relative;
+	min-height: 47vh;
+	padding-bottom: 40px;
 }
 
 a:link {
@@ -42,7 +55,6 @@ a:hover {
 }
 
 .acceuil {
-		position: relative;
 		color: white;
 		font-size: 30px;
 		text-align: left;
@@ -52,9 +64,6 @@ a:hover {
 		margin-top: 4%;
 		margin-bottom: 2px;
 		padding-left: 8px;
-		padding-bottom: auto;
-		flex: auto;
-		position: relative;
 }
 
 .pages {
@@ -63,7 +72,7 @@ a:hover {
 		font-size: 24px;
 		text-align: justify;
 		width: 76%;
-		margin-right: 10%;
+		margin-right: 12%;
 		margin-left: 12%;
 		margin-top: 4%;
 		margin-bottom: 2px;
@@ -78,12 +87,15 @@ a:hover {
 .book {
 	text-align: center;
 	margin: 10px;
+	padding-bottom: 40px;
 }
 
 .cognito1 : {
+	position: relative;
 	left: 25%;
 	right: 25%;
 	width: 50%;
+	padding-bottom: 40px;
 }
 
 .bhighlight {
