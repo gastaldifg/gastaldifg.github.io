@@ -4,8 +4,9 @@ body {
 }
 
 footer {
-	position: fixed;
+	position: relative;
 	width: 50%;
+	padding: 1px;
 	bottom: 2%;
 	left: 25%;
 	right: 25%;
