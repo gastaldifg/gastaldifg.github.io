@@ -78,6 +78,12 @@ a:hover {
 	margin: 10px;
 }
 
+.cognito1 : {
+	left: 25%;
+	right: 25%;
+	width: 50%;
+}
+
 .bhighlight {
 	background-color: rgba(0,0,0,0.7);
 }
