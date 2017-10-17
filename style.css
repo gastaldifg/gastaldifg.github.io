@@ -5,7 +5,7 @@ body {
 footer {
 	position: fixed;
 	width: 50%;
-	bottom: 15px;
+	bottom: 2%;
 	left: 25%;
 	right: 25%;
 	color: white;
@@ -39,7 +39,7 @@ header {
 .divhead {
 	text-align: center;
 	font-size: 60px;
-	padding-top: 60px;
+	padding-top: 3%;
 }
 
 .photohead {
