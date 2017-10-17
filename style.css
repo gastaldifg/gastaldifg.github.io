@@ -1,12 +1,11 @@
 body {
 	background-image: url("book-vortex.png"); background-attachment : fixed; background-repeat: no-repeat; background-size: cover; 
-	background-position: top center; height: 200%;
+	background-position: top center; height: 500%;
 }
 
 footer {
-	position: relative;
+	position: fixed;
 	width: 50%;
-	padding: 1px;
 	bottom: 2%;
 	left: 25%;
 	right: 25%;
@@ -25,11 +24,13 @@ header {
 		text-align: left;
 		width: 50%;
 		margin-right: 25%;
-		margin-left: 33%;
+		margin-left: 25%;
 		margin-top: 10%;
 		margin-bottom: 2px;
 		padding-left: 8px;
+		padding-bottom: auto;
 		flex: auto;
+		position: relative;
 }
 
 .bhighlight {
