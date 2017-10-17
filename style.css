@@ -4,6 +4,7 @@ body {
 	-moz-background-size: contain;
 	-o-background-size: cover; 
 	background-size: center; 
+	
 	background-position: top center; 
 }
 
@@ -15,7 +16,6 @@ footer {
 	right: 25%;
 	color: white;
 	background-color: rgba(0,0,0,0.7); 
-	margin-top: 2px;
 	padding: 1px;
 }
 
