@@ -15,8 +15,8 @@ body {
 	background-attachment : fixed; 
 	background-repeat: no-repeat; 
 	-webkit-background-size: cover;
-	-moz-background-size: contain;
-	-o-background-size: contain; 
+	-moz-background-size: cover;
+	-o-background-size: cover; 
 	background-size: cover; 
 	background-position: top center; 
 	height:100vh;
