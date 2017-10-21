@@ -9,7 +9,7 @@ header {
 }
 
 body {
-	position: relative;
+	position: absolute;
 	background-color: black;
 	background-image: url("book-vortex.png"); 
 	background-attachment : fixed; 
@@ -18,7 +18,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover; 
 	background-size: 100% 100%; 
-	background-position: top center; 
+	background-position: 0 0 0 0; 
 	height:100%;
 	box-sizing:border-box;
 	padding-bottom: 10px;
