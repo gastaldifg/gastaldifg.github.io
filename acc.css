@@ -19,7 +19,7 @@ body {
 	-o-background-size: contain; 
 	background-size: cover; 
 	background-position: top center; 
-	height:97vh;
+	height:100vh;
 	box-sizing:border-box;
 	padding-bottom: 10px;
 	min-width: 100%;
