@@ -1,10 +1,14 @@
-html {
-	height: 100%;
-	width: 100%;
+header {
+	background-color: rgba(255,255,255,0.6);
+	height: 250px;
+	text-align: center;
+	font-size: 60px;
+	margin:0;
+	padding-top: 10px;
 }
 
 body {
-	position: relative;
+	position: absolute;
 	background-color: black;
 	background-image: url("book-vortex.png"); 
 	background-attachment : fixed; 
@@ -20,11 +24,11 @@ body {
 	padding-bottom: 10px;
 	min-height: 100%;
 	min-width: 100%;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 footer {
-	position: fixed;
+	position: absolute;
 	width: 50%;
 	left: 25%;
 	right: 25%;
@@ -33,32 +37,6 @@ footer {
 	background-color: rgba(0,0,0,0.7); 
 	padding: 1px;
 	text-align: center;
-}
-
-header {
-	background-color: rgba(255,255,255,0.6);
-	height: 250px;
-	text-align: center;
-	font-size: 60px;
-	padding-top: 10px;
-	
-}
-
-section {
-	position: relative;
-	margin-bottom: 40px;
-}
-
-a:link {
-	color: white;
-}
-
-a:visited {
-	color: pink;
-}
-
-a:hover {
-	color: lightblue;
 }
 
 .acceuil {
@@ -73,33 +51,8 @@ a:hover {
 		padding-left: 8px;
 }
 
-.pages {
-		position: relative;
-		color: white;
-		font-size: 24px;
-		text-align: justify;
-		width: 76%;
-		margin-right: 12%;
-		margin-left: 12%;
-		margin-top: 4%;
-		margin-bottom: 2px;
-		padding-left: 8px;
-		padding-right: 8px;
-		padding-bottom: auto;
-		flex: auto;
-		position: relative;
-		background-color: rgba(0,0,0,0.7);
-}
-
-.cv {
-	margin-top: 4%;
-	margin-bottom: 2px;
-}
-
-.book {
-	text-align: center;
-	margin: 10px;
-	padding-bottom: 40px;
+.bhighlight {
+	background-color: rgba(0,0,0,0.7);
 }
 
 .cognito1 : {
@@ -109,31 +62,6 @@ a:hover {
 	width: 50%;
 	padding-bottom: 40px;
 }
-
-.bhighlight {
-	background-color: rgba(0,0,0,0.7);
-}
-
-em {
-	font-style: italic;
-}
-
-.titreheader {
-	text-align: center;
-	font-size: 55px;
-}	
-
-
-.photohead {
-	position: absolute;
-	left: 36%;
-	top: 58px;
-}
-
-.foot {
-	
-}
-
 
 .navbar {
     overflow: hidden;
